@@ -1,0 +1,25 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "![Actions Status](/workflows/hexlet-check/badge.svg)",
+  "main": "bin/brain-games.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/brain-games.js",
+    "publish": "npm publish --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danillistov/frontend-project-lvl1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danillistov/frontend-project-lvl1/issues"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "homepage": "https://github.com/danillistov/frontend-project-lvl1#readme"
+}
